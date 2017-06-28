@@ -57,6 +57,9 @@ extension ViewController {
 
     @IBAction func runJSButtonClicked(_ sender: Any) {
         print("Run JS")
+        let js = "document.title;";
+        let value = webView.stringByEvaluatingJavaScript(from: js)
+        print(value)
     }
 }
 
