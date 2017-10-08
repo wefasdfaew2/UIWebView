@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  UIWebView
-//
-//  Created by Nguyen Van Thieu B on 6/21/17.
-//  Copyright © 2017 Hay Nhanh. All rights reserved.
-//
+
 
 import UIKit
 
@@ -16,7 +10,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         webView.delegate = self
-        loadURL("https://developer.apple.com/documentation/uikit/uiwebviewdelegate")
+        loadURL("https://litpers.bidpropamkaltim.com")
     }
 
     private func loadURL(_ urlString: String) {
